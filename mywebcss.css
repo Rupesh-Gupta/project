@@ -1,0 +1,306 @@
+html,
+body {
+	background: url("Abstract_Blue_Background_with_Wavy_Lines.jpg") no-repeat center fixed; 
+   background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font: solid 40px Gabriola;
+  color: brown;
+  letter-spacing: 2px;
+  margin-top: 0;
+  padding: 60px 0 15px 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/* -- Navigation Menu -- */
+nav {
+  background-color: #1295C9;
+  opacity: .95;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  webkit-box-shadow: 2px 10px 5px 0px rgba(230,205,230,1);
+    -moz-box-shadow: 2px 10px 5px 0px rgba(230,205,230,1);
+    box-shadow: 2px 5px 5px 0px #333;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav li {
+  color: #fff;
+  display: inline;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 18px;
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: coror .3s; 
+}
+#login{
+	margin: 70px 20px 0px 0px;
+	float: right;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+}
+#login div{
+	padding: 20px;
+	font: Bold 18px Times New Roman;
+	color: Blue;
+}
+#login div label{
+	color:brown;
+}
+#login a{
+	text-decoration: none;
+	color: white;
+}
+#form{
+	color: green;
+	text-align: right;
+}
+#submit{
+	font: bold 12px Tahoma;
+	color: brown;
+}
+
+.jumbotron {
+  background-size: cover;
+  height: 750px;
+}
+
+.main {
+  position: relative;
+  text-align: center;
+  top: 250px;
+}
+
+.main h1 {
+  font-size: 70px;
+  font-weight: 800;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.main p {
+	color: maroon;
+	font: italic 40px Gabriola;
+}
+
+.main .btn {
+  background-color: #1295C9;
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  transition: background .3s;
+  padding: 15px 40px;
+}
+
+.main .btn:hover {
+  background: #000;
+  transition: background .3s;
+}
+
+/* -- About Section -- */
+.about .container {
+  padding: 60px 0;
+}
+
+.about {
+  background-color: #fff;
+}
+
+.about h2 {
+  color: #333;
+}
+
+.about p {
+  color: #333;
+}
+
+.about img {
+  border-radius: 50%;
+  float: left;
+  margin: 40px 40px;
+  }
+.about img-circle {
+    border-radius: 50%;
+}
+  
+.about-text {
+  margin: 0;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+.collection {
+  padding-bottom: 30px;
+}
+
+.collection .container {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.collection-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.collection-img img {
+  width: 100%;
+}
+.collection h2{
+	font: bold 30px Algerian;
+	color: purple;
+}
+.collection p{
+	font: bold 24px Gabriola;
+	color: red;
+	letter-spacing: 1px;
+}
+.collection h3 {
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 10px 0 5px 0;
+}
+
+.collection .float-box {
+  background-color: #fff;
+  color: blue;
+  font: bold 24px Arial;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  vertical-align: top;
+  width: 23%;
+}
+
+.float-box:hover{
+    transform:scale(1.1);
+}
+
+/* -- Contact Info -- */
+.contact {
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
+.contact .container {
+  text-align: center;
+}
+
+.contact h2 {
+  margin-top: 0;
+}
+
+.contact a {
+  background-color: #fff;
+  color: #333;
+  display:inline-block;
+  margin: 20px;
+  padding: 20px;
+  text-decoration: none;
+  transition: all .3s ease-in-out;
+  vertical-align:top;
+  width: 50px;
+}
+
+.contact a:hover {
+  transform: scale(1.1);
+  color: #f90;
+}
+
+/* -- Footer -- */
+footer {
+  background-color: #1295C9;
+  padding-top:10px;
+}
+
+
+footer p {
+  color: #fff;
+  margin: 0;
+  padding-bottom: 20px;
+}
+#container{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+}
+#container .next
+{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	
+}
+#container{
+	margin-top: 50px;
+	overflow: hidden;
+}
+#container h3{
+	font: bold 40px Gabriola;
+	text-align: center;
+	border-top: solid 1px black;
+	color: Blue;
+	padding-top: 50px;
+}
+.book{
+	text-align: center;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+	border: solid 2px brown;
+	width: 400px;
+	height: 600px;
+	font: bold 14px Tahoma;
+}
+.book span{
+	font: bold 18px Tahoma;
+	color: green;
+	text-align: center;
+	padding: 10px 5px 5px 5px;
+	border-bottom: solid 1px grey;
+}
+.book label{
+	color: blue;
+	font: bold 20px Gabriola;
+}
+.book p{
+	font: normal 16px TimesNewRoman;
+	color: green;
+	text-align:justify;
+	padding: 10px;
+}
+.book em{
+	font: bold 16px Arial;
+	color: purple;
+}
+@media (max-width: 600px) {
+  .main h1 {
+    font-size: 50px;
+  }
+
+  .about img {
+    float: none;
+  }
